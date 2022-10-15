@@ -1,0 +1,7 @@
+query ChurchOwnerById($churchOwnerId: String!) {
+  churchOwnerByPk(churchOwnerId: $churchOwnerId) {
+    churchId
+    churchOwnerId
+    churchOwnerName
+  }
+}
